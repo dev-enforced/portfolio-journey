@@ -45,6 +45,8 @@ body{
 .link{
     text-decoration: none;
     padding:0.5rem 1rem;
+    display: inline-block;
+    color:#0000EE;
 }
 .link-active{
     font-weight:bold;
@@ -202,6 +204,9 @@ footer i{
     color:var(--theme-color);
     font-size: 40px;
     margin:0.5rem;
+}
+footer ul{
+    padding-inline-start: 0px;
 }
 @media screen and (max-width: 991px){
     .navigation{
