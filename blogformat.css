@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Spectral&display=swap');
+
+:root {
+    --theme-color: #272727;
+    --illustrator: #fed766;
+    --sec1: #009fb7;
+    --sec2: #696773;
+    --text-color: #eff1f3;
+}
+
+.container-center{
+    max-width: 650px;
+    margin: auto;
+    padding:0rem 0.5rem;
+}
+
+.blog-div{
+    padding:3rem 2rem;
+    margin:auto;
+}
+.blog-div .blog-img{
+    max-width:90%;
+    width:1030px;
+    padding-top:2rem;
+}
+
+.blog-heading{
+    color: var(--illustrator);
+    font-weight: 900;
+}
+.blog-sub-head{
+    color:var(--sec1);
+}
+small{
+    color:var(--text-color);
+}
+p{
+    color:var(--text-color);
+    text-align:justify;
+}
+.disclaimer{
+    background-color: var(--sec2);
+    padding: 1rem;
+    font-style: italic;
+}
+
+.bookmark{
+    text-decoration: underline;
+    font-size: 2em;
+}

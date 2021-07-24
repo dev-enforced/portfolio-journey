@@ -70,6 +70,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap:1rem 1rem;
+    margin:4rem;
 }
 
 .project-card{
@@ -129,8 +130,10 @@
     }
     .project-cards-div{
         gap:3rem 1rem;
+        margin: 1rem;
     }
     .project-subtitle {
+        margin: 1rem;
         font-size: 16px;
         line-height: normal;
         text-align: center;
