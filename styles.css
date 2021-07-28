@@ -63,7 +63,7 @@ body{
 .link-buttons {
     font-size: 1rem;
     padding: 0.5em;
-    background-color: var(--illustrator);
+    background-color: var(--sec1);
     border-radius: 0.5em;
     margin: 0.5rem;
 }
@@ -157,34 +157,34 @@ body{
     flex:1;
     border:2px solid var(--sec1);
     padding:2rem;
-    background-color: var(--sec1);
-    box-shadow: 5px 5px 20px 2px var(--sec2);
+    background-color: var(--theme-color);
+    box-shadow: 5px 5px 20px 2px var(--illustrator);
     border-radius: 0.5rem 0.5rem;
-}
-.flex-child:first-child{
     margin-right: 20px;
 }
-.projects h1,.knowledge h1{
+
+.projects h1,.knowledge h1,.skills h1{
     text-align: center;
     text-decoration: underline;
     padding-bottom:1rem;
 }
-.knowledge ul{
+.skills ul{
     list-style: none;
     margin-left:1rem;
     padding: 0.5rem;
 }
-.knowledge ul li{
+.skills ul li{
     display: block;
     padding:0.2rem;
 }
-.projects p,.knowledge p{
+.projects p,.knowledge p,.skills p{
     font-size: 1.2rem;
     padding: 1rem;
+    text-align: justify;
 }
 
-.projects p{
-    padding-bottom: 11rem;
+.projects p,.knowledge p{
+    padding-bottom: 1rem;
 }
 
 /* footer headlines */
