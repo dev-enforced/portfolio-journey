@@ -48,3 +48,17 @@ p{
     text-decoration: underline;
     font-size: 2em;
 }
+.blog-collection{
+    display: inline-flex;
+}
+.blog-collection img{
+    width:50%;
+    height: 50%;
+    padding:1rem;
+}
+@media screen and (max-width:768px) {
+    .blog-collection{
+        display: flex;
+        flex-direction: column;
+    }    
+}
