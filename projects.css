@@ -124,6 +124,24 @@
 .icon-link:hover{
     color:var(--sec1);
 }
+
+.tags_container{
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tag_link{
+    text-decoration: none;
+    color:#fff;
+    padding: 3px 8px;
+    margin: 10px 10px 0 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px #221e1b,
+    -2px -2px 6px #3a342f;
+    background-color: #4b443c;
+
+}
 @media screen and (max-width:991px){
     .project-main-div{
         margin-top: 1rem;
